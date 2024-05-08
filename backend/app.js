@@ -7,7 +7,7 @@ const places=require('./route/SafePlaceRoute')
 const cors = require('cors')
 const emergency=require('./route/EmergencyRoute')
 app.use(express.json())
-mongoose.connect('mongodb+srv://root:root@it3fsd.6cqlrhg.mongodb.net/SIH?retryWrites=true&w=majority').then(()=>
+mongoose.connect('').then(()=>
 {
     console.log("successfully connected to db")
 })
